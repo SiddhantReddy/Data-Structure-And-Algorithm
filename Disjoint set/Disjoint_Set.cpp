@@ -53,7 +53,7 @@ int main()
     
     weighted_union(Arr,size,0,1);
     weighted_union(Arr,size,1,2);
-    weighted_union(Arr,size,3,2);
+    weighted_union(Arr,size,2,3);
     
     for(int i=0;i<N;i++)
       cout<<Arr[i]<<" ";
